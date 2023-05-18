@@ -334,7 +334,29 @@ ul {
   display: flex;
 }
 
-.activity-type-thumb {
+.activity-type-item {
+  position: relative;
+  display: inline-flex;
+}
+
+.activity-type-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  color: var(--white-background-color);
+  background: rgba(47, 48, 58, 0.8);
+  bottom: 0;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+padding-top: 27px;
+padding-bottom: 27px;
+}
+
+/*.activity-type-thumb {
   position: absolute;
   width: 370px;
   height: 70px;
@@ -359,7 +381,7 @@ ul {
 .activity-type-item {
   position: relative;
 }
-
+*/
 .activity-type-item + .activity-type-item {
   margin-left: 30px;
 }
